@@ -1,0 +1,9 @@
+body {
+    margin-left: 15px;}
+h1 {
+    color: brown;}
+a {
+    color: blue;
+    text-decoration: none;}
+a:hover {
+    text-decoration: underline;}
