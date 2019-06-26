@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8" />
+     <meta name="description" content="learning to play media in a web page" /> 
+     <meta http-equiv="author" content="Afiz savage" />
+        <title>Media</title>
+            <script type="text/javascript" src="Javascript/Libraries/swfobject.js"></script>
+            <script type="text/javascript">
+                var flashvars = {};
+                var params = {movie:"Videos/botoOku.swf"};
+                swfobject.embedSWF("Flash/player.swf", lit, 300, 120, 10, flashvars, params);
+            </script>
+            <link href="Stylesheet/media.css" rel="stylesheet" />
+  </head>
+    <body>
+        <div id="lit">
+            <video preload="auto" autoplay="autoplay" controls="controls">
+                <source src="Videos/botoOku.mp4" />
+                <source src="Videos/botoOku_VP8.webm" />
+                <p>A video of boto oku</p>
+            </video>
+        </div>
+        <div id="til">
+            <audio controls>
+                <source src="Audios/20190621_092055.ogg" type="audio/OGG"/>
+                <source src="Audios/audioOku.mp3"  type="audio/MPEG"/>
+                Sorry your browser does not support our audio format!
+            </audio>
+        </div>
+    </body>
+</html>
