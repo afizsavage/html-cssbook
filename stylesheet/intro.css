@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #574e4e;
+}
+
+h1, h2 {
+    text-transform: capitalize;
+    color:#0066ff;
+}
