@@ -1,0 +1,67 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: rgb(59, 58, 58);
+    padding: 20px;
+    line-height: 1.4em;
+    text-align: center;
+    word-spacing: 0.6em;
+    letter-spacing: 0.1em;
+}
+#head {
+    text-align: center;
+}
+#logo {
+        width: 215px;
+        padding: 0px;
+        margin: 10px auto;
+}     
+#navBar {
+    text-align: center;
+    width: 675px;
+    margin: 10px auto;
+    border-top: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    word-spacing: 0.005em;
+}
+#navBar ul {
+    width: 600px;
+    margin: 5px auto;
+    padding-left: 0px;
+}
+#navBar li {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    letter-spacing: 0.12em;
+    /* code for centering navBar elements*/
+    padding-left: 1.36em;
+    margin-right: 1.36em;
+} 
+#navBar a {
+    color: inherit;
+    text-decoration: none;
+}
+#navBar a:hover {
+    color: rgb(225, 35, 35);
+}
+#main {
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#article {
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#article>p {
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+}
