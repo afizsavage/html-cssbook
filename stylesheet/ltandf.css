@@ -1,0 +1,136 @@
+html {
+    background-color: white;
+}
+body {
+    background-color: #f8f8f8;
+    font-size: 90%;
+    color: #666666;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 32px;
+}
+ul.zoo li {
+    list-style-image: url("../Images/iconslight.png");
+    line-height: 1.6em;
+}
+table {
+    width: 650px;
+    margin: 15px 15px 25px 0px; 
+    padding: 0px;
+    background-color: #e0e9f0;
+    text-align: left;
+    border-spacing: 0px;
+}
+th, td {
+    border-spacing: 0px;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+    font-size: 90%;
+}
+tr.off th {
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-shadow: 1px 1px 1px #666;
+}
+tr.off th:last-child {
+    border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+tr.off th:first-child {
+    border-top-left-radius: 5px;
+    -moz-border-top-lefft-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+}
+.off {
+    background-color: #e8eff5;
+}
+.title {
+    width: 264px;
+    font-weight: bold;
+    padding: 0px 0px 0px 10px;
+}
+th {
+    width: 140px;
+    color:white;
+    background-color:#90b4d6;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    text-align: center;
+}
+td {
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+fieldset {
+    width: 300px;
+    padding: 10px 12px 10px 10px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+legend {
+    font-style: italic;
+    color: #666666;
+}
+.titled {
+    width: 150px;
+    float: left;
+}
+input {
+    float: none;
+}
+#user-email, #username {
+    width: 120px;
+    margin-bottom: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+}
+#locale {
+    border: 1px solid #d6d6d6;
+}
+input[type="radio"]:hover,
+#user-email:hover,
+#username:hover,
+#locale:hover {
+    background-color: #cbd2d8;
+    border-color: #749abe;
+    color: black;
+    cursor: pointer;
+}
+.locale {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#members {
+    margin-bottom: 10px;
+}
+.submit{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+.submit #submit {
+    background-color: #90b4d6;
+    color: white;
+    font-size: 80%;
+    box-shadow: 1px 1px 1px black;
+    -moz-box-shadow: 1px 1px 1px black;
+    -webkit-box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.submit #submit:hover {
+    box-shadow: -1px -1px black;
+    -moz-box-shadow: -1px -1px black;
+    -webkit-box-shadow: -1px -1px black;
+    color: #666666;
+    background-color: #749abe;
+    cursor: pointer;
+}
